@@ -1,0 +1,18 @@
+{
+  "table": [
+    "test1",
+    "test1",
+    "test1"
+  ],
+  "a": {
+    "new": {
+      "field": {
+        "as": {
+          "object": {
+            "hello": "world"
+          }
+        }
+      }
+    }
+  }
+}

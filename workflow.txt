@@ -1,0 +1,30 @@
+- signup as admin (generate jwt token instantly)
+- login as admin
+- admin will create teaccher by api
+- send one email to registerred teacher email with (done)
+
+teacher part : 
+-------------------------------------------------------------------------------------------------------
+- teacher will login by generated password and email  (done)
+- after login teacher will create classroom with specific subject and one invide code will be generate 
+- teacher can post two types of post (assignment, exam) with specific deadline
+
+student part : 
+-----------------------------------------------------
+- by that invite code student can join into class
+- can submit assignment feedback and exam report
+
+and end of the time teacher can give marks to that assignment or exam
+
+id 
+classroom_id (subject id)
+assessment_title
+type (assignment / exam)
+deadline of submission
+===============================================
+
+- teacher just will send the classroom id and its return the assignmetn or exam lists (working)
+- after that lists teacher will send the of assements
+- and will return the data lists 
+- and wiill give the marks
+- student will see the marks
