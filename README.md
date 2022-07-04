@@ -21,13 +21,11 @@ https://www.getpostman.com/collections/ef38d3f9d140eae4716d
 API ROUTES: 
 
 signup url as admin : http://127.0.0.1:4000/users/signup-admin
-<code>
 param: {
     name: VARCHAR
     password: VARCHAR
     email: VARCHAR
 }
-</code>
 type: POST
 
 
