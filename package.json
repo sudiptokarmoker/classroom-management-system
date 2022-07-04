@@ -8,7 +8,7 @@
         "url": "https://github.com/cornflourblue/node-role-based-authorization-api.git"
     },
     "scripts": {
-        "start": "node server.js"
+        "start": "nodemon ./server.js"
     },
     "dependencies": {
         "bcrypt": "^5.0.1",

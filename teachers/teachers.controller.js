@@ -143,7 +143,7 @@ async function create_assessment(req, res, next){
 }
 async function classroom_lists(req, res, next){
     try{
-        pool.query('SELECT * FROM classroom WHERE created_by_id = ?', [59], async(err, data) => {
+        pool.query('SELECT * FROM classroom WHERE created_by_id = ?', [req.user.sub], async(err, data) => {
             if(err) throw new Error(err);
             if(data && data.length > 0){
                 res.json({
