@@ -5,7 +5,7 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/cornflourblue/node-role-based-authorization-api.git"
+        "url": "https://github.com/sudiptokarmoker/classroom-management-system.git"
     },
     "scripts": {
         "start": "node server.js"
