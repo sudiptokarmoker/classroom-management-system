@@ -1,9 +1,24 @@
 # classroom-management-system
 This is classroom management tasks assignment of Strativ
 
-here is the api end point collection url for postman : 
+to install this : 
 
+1. git clone https://github.com/sudiptokarmoker/classroom-management-system.git classroom-management-system
+2. go to that directory "classroom-management-system" 
+3. upload this attachemnt db to your local mysql sever
+4. setup connection at classroom-management-system->db->connection.js
+5. setup email configuariton at classroom-management-system->settings->email.js
+6. run this command : npm install
+7. run command : npm start
+and then done............... !
+
+
+here is the api end point collection url for postman : 
 https://www.getpostman.com/collections/ef38d3f9d140eae4716d
+
+
+
+API ROUTES: 
 
 signup url as admin : http://127.0.0.1:4000/users/signup-admin
 param: {
